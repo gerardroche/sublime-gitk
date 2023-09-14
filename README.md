@@ -107,6 +107,10 @@ Command                     | Description
 **Gitk**                    | Launch `gitk` for the current repository.
 **Gitk&nbsp;--all**         | Open `gitk --all` for the current repository.
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
+
 ## License
 
 Released under the [GPL-3.0-or-later License](LICENSE).

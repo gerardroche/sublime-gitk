@@ -1,0 +1,13 @@
+[
+    {
+        "caption": "Gitk",
+        "command": "gitk"
+    },
+    {
+        "caption": "Gitk --all",
+        "command": "gitk",
+        "args": {
+            "all": true
+        }
+    }
+]

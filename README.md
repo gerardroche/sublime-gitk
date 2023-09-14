@@ -2,6 +2,8 @@
 
 Enhance your Sublime Text experience with seamless [`gitk`](https://git-scm.com/docs/gitk/) integration.
 
+Provides commands to launch `gitk` from within Sublime Text.
+
 ## Installation
 
 ### Step 1: Install `gitk`
@@ -66,6 +68,8 @@ gitk --version
 This command should display the version information of Gitk, confirming that it's installed and ready to use.
 
 ### Step 2: Install the Gitk Package
+
+**Pending availability https://github.com/wbond/package_control_channel/pull/8818**
 
 **Method 1: Using Package Control**
 

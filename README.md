@@ -107,6 +107,23 @@ Command                     | Description
 **Gitk**                    | Launch `gitk` for the current repository.
 **Gitk&nbsp;--all**         | Open `gitk --all` for the current repository.
 
+## NeoVintageous mappings
+
+[NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) is a Vim emulator for Sublime Text.
+
+1. Open the Command Palette: `Command Palette → NeoVintageous: Open neovintageous file`.
+
+2. Add your preferred mappings.
+
+   **Example**
+
+   ```vim
+   nnoremap <leader>oa :Gitk all=true<CR>
+   nnoremap <leader>ok :Gitk max-count=200 all=true date-order=true<CR>
+   ```
+
+3. To apply the changes, reload the neovintageousrc from the Command Palette: `Command Palette → NeoVintageous: Reload neovintageous file`.
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).

@@ -94,6 +94,7 @@ This command should display the version information of Gitk, confirming that it'
    - macOS: `~/Library/Application Support/Sublime Text/Packages`
    - Linux: `~/.config/sublime-text/Packages`
 3. Clone the Gitk plugin repository directly into the Packages directory using Git:
+
    ```bash
    git clone https://github.com/gerardroche/sublime-gitk.git Gitk
    ```
